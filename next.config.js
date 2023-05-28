@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+
+
+compiler:{
+StyledCompenents : true,
+}
+}
 
 module.exports = nextConfig
